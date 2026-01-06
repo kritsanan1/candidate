@@ -56,7 +56,7 @@ const Dashboard = () => {
             </div>
             <div className="flex items-center space-x-4">
               <div className="text-sm text-gray-600">
-                <span className="font-medium">วันเลือกตั้ง:</span> 14 เมษายน 2569
+                <span className="font-medium">วันเลือกตั้ง:</span> 8 กุมภาพันธ์ 2569
               </div>
               <div className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium">
                 เหลือ 42 วัน
@@ -126,14 +126,14 @@ const OverviewDashboard = () => {
           <div className="flex items-center justify-between">
             <div>
               <p className="text-sm text-gray-600">ผู้มีสิทธิเลือกตั้ง</p>
-              <p className="text-2xl font-bold text-gray-900">124,850</p>
+              <p className="text-2xl font-bold text-gray-900">162,384</p>
             </div>
             <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
               <MapPin className="w-6 h-6 text-green-600" />
             </div>
           </div>
           <div className="mt-2">
-            <span className="text-gray-600 text-sm">4 อำเภอ 48 ตำบล</span>
+            <span className="text-gray-600 text-sm">4 อำเภอ 48 ตำบล (ประชากร ~162,384 คน)</span>
           </div>
         </div>
 
@@ -213,7 +213,7 @@ const OverviewDashboard = () => {
               { district: 'อำเภอศรีธาตุ', voters: 31420, leader: 'ประชาชาติ', leadPercent: 35 },
               { district: 'อำเภอวังสามหมอ', voters: 28150, leader: 'ธนอนันต์', leadPercent: 32 },
               { district: 'อำเภอไชยวาน', voters: 35680, leader: 'ประชาชาติ', leadPercent: 32 },
-              { district: 'อำเภอกู่แก้ว', voters: 29600, leader: 'ธนอนันต์', leadPercent: 30 },
+              { district: 'อำเภอกู่แก้ว (บางส่วน)', voters: 29600, leader: 'ธนอนันต์', leadPercent: 30 },
             ].map((area, index) => (
               <div key={index} className="border border-gray-100 rounded-lg p-4">
                 <div className="flex items-center justify-between mb-2">
